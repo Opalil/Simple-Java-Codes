@@ -12,7 +12,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-
+/**
+* Simple program to read RSS-feed from Kuntarekry page and list all the
+* Kuopio citys open jobs in Kuntarekry.
+*
+***/
 public class KuntarekryKuopio {
 		
 	public static void main(String[]args) throws IOException {
